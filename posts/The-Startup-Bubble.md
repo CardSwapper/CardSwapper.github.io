@@ -1,4 +1,6 @@
-<a href="https://www.youtube.com/watch?v=ZRNEUc5k7Jw"><img src="http://i.imgur.com/R0zdpuy.png"></a>
+<div style="text-align: center">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRNEUc5k7Jw" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Truly, the American Dream has been changed. What was once a two-story home with a white picket fence, is now a two man team, in a dorm room, coding the next billion dollar enterprise. With notable success stories like Mark Zuckerberk, Elon Musk, Larry Page and Sergey Brin, a fad has been born. It’s cool to start a company, idolize Steve Jobs, move to Palo Alto and hock your idea to VC firms. The question must be asked though: Are we really solving problems or are we satiating our need to be apart of a trend?
 
