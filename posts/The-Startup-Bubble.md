@@ -15,6 +15,7 @@ Truly, the cool factor of the startup fad is rooted in the potential of becoming
 
 So, the question becomes: how do I make a successful company? The answer: who knows!? If a foolproof model existed, everyone would follow it. No book, website, or seminar produces the golden ticket. The best you can do is obtain a framework that won't fail miserably. Make ethical decisions, be kind and insightful, spend frugally, succeed a lot, fail even more, and most of all, ask yourself, “does anyone really need this?”
 
+<br>
 ##### These are a few related articles and resources that I found intersting:
 
 
