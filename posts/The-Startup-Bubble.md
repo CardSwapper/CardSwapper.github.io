@@ -23,3 +23,5 @@ alt="Silicon Valley Parking Lot App" width="480" height="360" border="10" /></a>
 [The Birth Life and Death of an App](https://www.adjust.com/assets/downloads/AppleAppStore_Report2014.pdf) <br>
 [Can It Be? An Entrepreneur Bubble?](http://www.inc.com/gene-marks/entrepreneur-bubble-can-it-be.html) <br>
 [Mobile Is Eating The World] (http://www.slideshare.net/a16z/mobile-is-eating-the-world-40841467)
+
+-Sam Tanner
