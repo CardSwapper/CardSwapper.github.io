@@ -15,13 +15,13 @@ So, the question becomes: how do I make a successful company? The answer: who kn
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ZRNEUc5k7Jw
 " target="_blank"><img src="http://img.youtube.com/vi/ZRNEUc5k7Jw/0.jpg" 
-alt="Silicon Valley Parking Lot App" width="480" height="360" border="10" /></a>
+alt="Silicon Valley Parking Lot App" width="240" height="180" border="10" /></a>
 
 ##### These are a few related articles and resources that I found intersting:
 
 
 [The Birth Life and Death of an App](https://www.adjust.com/assets/downloads/AppleAppStore_Report2014.pdf) <br>
 [Can It Be? An Entrepreneur Bubble?](http://www.inc.com/gene-marks/entrepreneur-bubble-can-it-be.html) <br>
-[Mobile Is Eating The World] (http://www.slideshare.net/a16z/mobile-is-eating-the-world-40841467)
+[Mobile Is Eating The World](http://www.slideshare.net/a16z/mobile-is-eating-the-world-40841467) <br>
 
 -Sam Tanner
