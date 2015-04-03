@@ -1,5 +1,10 @@
 # The Startup Bubble
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZRNEUc5k7Jw
+" target="_blank"><img src="http://img.youtube.com/vi/ZRNEUc5k7Jw/0.jpg" 
+alt="Silicon Valley Parking Lot App" width="240" height="180" border="10" /></a>
+
+
 Truly, the American Dream has been changed. What was once a two-story home with a white picket fence, is now a two man team, in a dorm room, coding the next billion dollar enterprise. With notable success stories like Mark Zuckerberk, Elon Musk, Larry Page and Sergey Brin, a fad has been born. It’s cool to start a company, idolize Steve Jobs, move to Palo Alto and hock your idea to VC firms. The question must be asked though: Are we really solving problems or are we satiating our need to be apart of a trend?
 
 With more than 1.3 million apps available for Android and 1.2 million for iOS. It is abundantly clear that the market, as a whole, is saturated. At this point, “there’s an app for that” has become a colloquialism. Nearly every imaginable desire has a complimentary application. And yet, every month, 60 thousand new programs are added to the App Store. So, if creating something new is so rigorous, how are so many more apps being made? Simple, either those apps satiate a more specific need or they are a lousy app. 
@@ -12,10 +17,6 @@ The cool factor of the startup fad is rooted in the potential of becoming rich. 
 
 So, the question becomes: how do I make a successful company? The answer: who knows!? If a foolproof model existed, everyone would know. No book, website, or seminar produces the golden ticket. The best you can do is obtaining the framework not to fail miserably. Make ethical decisions, be kind and insightful, spend frugally, succeed a lot, fail even more, and most of all, ask yourself, “does anyone really need this?”
 
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZRNEUc5k7Jw
-" target="_blank"><img src="http://img.youtube.com/vi/ZRNEUc5k7Jw/0.jpg" 
-alt="Silicon Valley Parking Lot App" width="240" height="180" border="10" /></a>
 
 ##### These are a few related articles and resources that I found intersting:
 
