@@ -52,6 +52,10 @@ nav p {
 	padding: 0px 0px 5px 4px;
 }
 
+.headerIcon {
+	width: 28px;	
+}
+
 /*BODY*/
 
 body {
