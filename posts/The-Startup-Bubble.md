@@ -1,9 +1,6 @@
 # The Startup Bubble
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZRNEUc5k7Jw
-" target="_blank"><img src="http://img.youtube.com/vi/ZRNEUc5k7Jw/0.jpg" 
-alt="Silicon Valley Parking Lot App" width="240" height="180" border="10" /></a>
-
+<a href="https://www.youtube.com/watch?v=ZRNEUc5k7Jw"><img src="http://i.imgur.com/R0zdpuy.png"></a>
 
 Truly, the American Dream has been changed. What was once a two-story home with a white picket fence, is now a two man team, in a dorm room, coding the next billion dollar enterprise. With notable success stories like Mark Zuckerberk, Elon Musk, Larry Page and Sergey Brin, a fad has been born. It’s cool to start a company, idolize Steve Jobs, move to Palo Alto and hock your idea to VC firms. The question must be asked though: Are we really solving problems or are we satiating our need to be apart of a trend?
 
@@ -16,7 +13,6 @@ An undeniable race to create is making for a “entrepreneur bubble,” similar 
 The cool factor of the startup fad is rooted in the potential of becoming rich. And, the formula for becoming rich has been oversimplified in the public eye: Have a good idea, make it, sell it for a ludicrous amount of money, rinse and repeat. This perception is fundamentally flawed for two reasons. Fist, anyone running a company will tell you, the process of making an idea a functional reality is nearly impossible. Second, and more importantly, innovation with a foundation of greed doesn't succeed. The strongest startups take years to be profitable and in the interim, sacrifice everything to provide for their users. The alternative, a company that panders crap will have a devoted user base of zero. A mantra for success is a mantra of selfless dedication to the users. No exceptions. 
 
 So, the question becomes: how do I make a successful company? The answer: who knows!? If a foolproof model existed, everyone would know. No book, website, or seminar produces the golden ticket. The best you can do is obtaining the framework not to fail miserably. Make ethical decisions, be kind and insightful, spend frugally, succeed a lot, fail even more, and most of all, ask yourself, “does anyone really need this?”
-
 
 ##### These are a few related articles and resources that I found intersting:
 
