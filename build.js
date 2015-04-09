@@ -3,7 +3,8 @@
 var fs = require('fs-extra'),
     path = require('path'),
     ejs = require('ejs'),
-    marked = require('marked');
+    marked = require('marked'),
+    autoprefixer = require('autoprefixer-core');
 
 marked.setOptions({
     gfm: true,
@@ -12,9 +13,8 @@ marked.setOptions({
 });
 
 // make sure there is a build folder
-if (!fs.existsSync('build')) {
-    fs.mkdirSync('build');
-}
+if (!fs.existsSync('build')) fs.mkdirSync('build');
+if (!fs.existsSync('build/css')) fs.mkdirSync('build/css');
 
 // compile the src/template.ejs file
 var template = ejs.compile(fs.readFileSync('src/template.ejs').toString());
@@ -56,8 +56,13 @@ var html = ejs.render(fs.readFileSync(filePath).toString(), {
 });
 fs.writeFileSync(destPath, html);
 
+// autoprefix css
+var cssPath = './src/css/styles.css';
+var cssDest = './build/css/styles.css';
+var css = fs.readFileSync(cssPath).toString();
+fs.writeFileSync(cssDest, autoprefixer.process(css).css);
+
 // copy over assets
-fs.copySync('src/css', 'build/css');
 fs.copySync('src/img', 'build/img');
 fs.copySync('.travis.yml', 'build/.travis.yml');
 fs.copySync('src/CNAME', 'build/CNAME');
