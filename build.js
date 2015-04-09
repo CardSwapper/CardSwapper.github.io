@@ -4,7 +4,8 @@ var fs = require('fs-extra'),
     path = require('path'),
     ejs = require('ejs'),
     marked = require('marked'),
-    autoprefixer = require('autoprefixer-core');
+    autoprefixer = require('autoprefixer-core'),
+    moment = require('moment');
 
 marked.setOptions({
     gfm: true,
@@ -20,21 +21,35 @@ if (!fs.existsSync('build/css')) fs.mkdirSync('build/css');
 var template = ejs.compile(fs.readFileSync('src/template.ejs').toString());
 
 // render each post to the build folder
-var posts = fs.readdirSync('./posts');
-posts.forEach(function(file) {
-    var baseName =  path.basename(file, '.md');
-    var filePath = path.join('posts', file);
-    var destPath = path.join('build', baseName + '.html');
+var posts = fs.readdirSync('./posts')
+    .map(function(file) {
+        var details = fs.statSync(path.join('./posts', file)),
+            created = new Date(details.ctime);
 
-    var markdown = marked(fs.readFileSync(filePath).toString());
-    var html = template({
-        content: markdown,
-        title: baseName.replace(/[-_]/g, " ")
+        var baseName =  path.basename(file, '.md'),
+            filePath = path.join('posts', file),
+            destPath = path.join('build', baseName + '.html');
+
+        var markdown = marked(fs.readFileSync(filePath).toString());
+        var html = template({
+            content: markdown,
+            title: baseName.replace(/[-_]/g, " ")
+        });
+
+        return {
+            html: html,
+            destPath: destPath,
+            created: created,
+            name: baseName
+        };
+    })
+    .sort(function(a, b) {
+        return a.created < b.created;
     });
 
-    fs.writeFileSync(destPath, html);
+posts.forEach(function(data) {
+    fs.writeFileSync(data.destPath, data.html);
 });
-
 
 // render src/index.ejs to build/index.html
 var filePath = './src/index.ejs';
@@ -46,11 +61,12 @@ var html = ejs.render(fs.readFileSync(filePath).toString(), {
     //  { title: 'name', raw: 'name.html' },
     //  { title: 'name two', raw: 'name-two.html' }
     // ]
-    posts: posts.map(function(name) {
-        var baseName = path.basename(name, '.md');
+    posts: posts.map(function(data) {
+        var baseName = path.basename(data.name, '.md');
         return {
             title: baseName.replace(/[-_]/g, " "),
-            raw: baseName + '.html'
+            raw: baseName + '.html',
+            created: moment(data.created).format('D/M/YY')
         }
     })
 });
