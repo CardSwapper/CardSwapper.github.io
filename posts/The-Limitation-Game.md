@@ -10,7 +10,7 @@ With any industry, as more companies enter the competition, each additional firm
 As we established, any developer can start the next app sensation. The only limiting factor in the infinitely scalable software world is being first to market. But when the market has seemingly been depleted of new mediums for services, what comes next? Let’s take a look at a timeline that us millennials will remember well and see why the apps we use caught on.
 <br>
 <br>
-![Sam's Social Network Timeline](http://i.imgur.com/ERAl6cL.jpg "Social Network Timeline")
+![Sam's Social Network Timeline](http://i.imgur.com/YzFWnxd.jpg "Social Network Timeline")
 ####The Game of Kings: 
 
 Users-now-and-profit-after is the business model nearly every social network operates on. The rational is: if there are users on the network to sell to, we will find a way to…later. As ridiculous as this seems, investors in the early 2000’s were willing to sink money into the model because it differentiated from the over-inflated stocks that lead to the dot-com bubble. User acquisition was a metric that could be followed when P/E ratios had seemingly failed. 
