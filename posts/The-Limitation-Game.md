@@ -1,5 +1,3 @@
-#The Limitation Game
-
 ![the Limitation Game](http://i.imgur.com/6EmHi0c.jpg "Limitation Game")
 <br>
 
