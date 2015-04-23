@@ -169,5 +169,11 @@ footer {
 }
 
 .markdown img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.markdown iframe {
     max-width: 100%;	
 }
