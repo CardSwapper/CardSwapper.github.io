@@ -49,6 +49,6 @@ So why do people like limitation? In a era where consumers want everything as fa
 
 Furthermore, we download applications that are more and more limited because these apps satisfy specific needs that general applications either cannot do, or don’t do well enough. It’s hard to say how many more specialized or limited apps will successfully enter the marketplace, but if the past is any indication, a simple, piggy-backing idea with great execution is just as valuable, if not more so, as one that is completely revolutionary. 
 
-<img src="(http://i.imgur.com/1b2zWMY.jpg" alt="I can have my tiny cake and eat it too" align="middle">
+<img src="http://i.imgur.com/1b2zWMY.jpg" alt="I can have my tiny cake and eat it too" align="middle">
 
 -Sam Tanner
