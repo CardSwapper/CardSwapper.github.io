@@ -84,7 +84,7 @@ var css = sass.renderSync({
 fs.writeFileSync(cssDest, autoprefixer.process(css).css);
 
 // copy over assets
-fs.copySync('src/img', 'build/img');
+fs.copySync('src/images', 'build/images');
 fs.copySync('.travis.yml', 'build/.travis.yml');
 fs.copySync('src/CNAME', 'build/CNAME');
 fs.copySync('src/robots.txt', 'build/robots.txt');
