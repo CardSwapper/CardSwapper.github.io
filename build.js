@@ -5,7 +5,8 @@ var fs = require('fs-extra'),
     ejs = require('ejs'),
     marked = require('marked'),
     autoprefixer = require('autoprefixer-core'),
-    moment = require('moment');
+    moment = require('moment'),
+    sass = require('node-sass');
 
 marked.setOptions({
     gfm: true,
@@ -72,10 +73,14 @@ var html = ejs.render(fs.readFileSync(filePath).toString(), {
 });
 fs.writeFileSync(destPath, html);
 
-// autoprefix css
-var cssPath = './src/css/styles.css';
+// build scss
+var cssPath = './src/css/styles.scss';
 var cssDest = './build/css/styles.css';
-var css = fs.readFileSync(cssPath).toString();
+var scss = fs.readFileSync(cssPath).toString();
+var css = sass.renderSync({
+    data: scss,
+    includePaths: ['src/css/']
+}).css;
 fs.writeFileSync(cssDest, autoprefixer.process(css).css);
 
 // copy over assets

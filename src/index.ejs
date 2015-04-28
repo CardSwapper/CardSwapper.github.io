@@ -18,35 +18,36 @@
         <![endif]-->
     </head>
     <body>
-        <nav class="navbar-fixed-top" role="navigation">
-            <div class="topbar">
-                <!--LOGO-->
-                <img class="logo" src="img/logo.png">
-                <a href=".."><p>cardswapr</p></a>
+        <div id="nav">
+            <div class="logo"><div></div></div>
+            <div flex></div>
+            <div>
+                <div><a href="dashboard/">dashboard</a></div>
             </div>
-        </nav>
-        <div class="container full">
-
-            <div class="pattern">
-                <div class="content">
-                    <h1 class="title top">the blog</h1>
-                </div>
-            </div>
-
-            <div class="pattern2">
-                <div class="content">
-                    <ul id="posts">
-                        <% posts.forEach(function(post) { %>
-                            <li>
-                                <a href="<%- post.raw %>"><%- post.title %></a> - <%= post.created %>
-                            </li>
-                        <% }) %>
-                    </ul>
-                </div>
-            </div>
+            <div class="bg hidden"
+                data-anchor-target="#fold"
+                data-400="@class: bg hidden;"
+                data-401="@class: bg;"
+            ></div>
         </div>
-        <footer>
+
+        <section id="post" class="most">
+            <content>
+
+            </content>
+            <content>
+                <ul id="posts">
+                    <% posts.forEach(function(post) { %>
+                        <li>
+                            <a href="<%- post.raw %>"><%- post.title %></a> - <%= post.created %>
+                        </li>
+                    <% }) %>
+                </ul>
+            </content>
+        </section>
+
+        <section id="legal">
             <span>CardSwapr, LLC. &#8482; <script type="text/javascript">document.write(new Date().getFullYear())</script>. All Rights Reserved.</span>
-        </footer>
+        </section>
     </body>
 </html>
