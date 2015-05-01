@@ -1,4 +1,4 @@
-Skip the inspirational books and expensive seminars, I can tell you a foolproof get-rich-quick scheme in eleven words: The key to success is timing, support, experience… and mostly luck.
+Skip the inspirational books and expensive seminars, I can tell you a foolproof, get-rich-quick scheme in eleven words: The key to success is timing, support, experience… and mostly luck.
 <br>
 <br>
 ![Vince Vaughn Stock Image](http://www.slate.com/content/dam/slate/blogs/browbeat/2015/03/04/vince_vaughn_stock_photos_unfinished_business_marketing_move_to_promote/vaughn_1.jpg.CROP.promovar-mediumlarge.jpg "Vince Vaughn Stock Image")
