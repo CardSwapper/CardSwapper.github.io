@@ -3,7 +3,7 @@ Skip the inspirational books and expensive seminars, I can tell you a foolproof,
 <br>
 ![Vince Vaughn Stock Image](http://www.slate.com/content/dam/slate/blogs/browbeat/2015/03/04/vince_vaughn_stock_photos_unfinished_business_marketing_move_to_promote/vaughn_1.jpg.CROP.promovar-mediumlarge.jpg "Vince Vaughn Stock Image")
 
-My friends have heard me say, “If I ever publish a how-to-succeed-in-entrepreneurship book, you have permission to punch me in the face.” Now, full disclosure, if I ever do publish a book on entrepreneurship, I am running for the hills, because my friends are bigger than I am. But, the reason I have made such a ludicrous agreement is because I despise the books preaching an entrepreneurial “golden ticket.” There is no <i>correct</i> way to make a company and there are no secret keys to success. If there were, everyone would be Gate’s and Zuckerberg’s neighbors.
+My friends have heard me say, “If I ever publish a how-to-succeed-in-entrepreneurship book, you have permission to punch me in the face.” Now, full disclosure, if I ever do publish a book on entrepreneurship, I am running for the hills, because my friends are bigger than I am. But, the reason I have made such a ludicrous agreement is because I despise the books preaching an entrepreneurial “golden ticket.” There is no *correct* way to make a company and there are no secret keys to success. If there were, everyone would be Gate’s and Zuckerberg’s neighbors.
 
 This post is not a rant, I promise. Instead, I would like to talk about a simple, yet critical, technique that does lead to success, not as a standalone key, but as a integral factor. You have to treat people like people. <i>Duh.</i>
 
