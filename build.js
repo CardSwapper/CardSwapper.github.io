@@ -34,7 +34,8 @@ var posts = fs.readdirSync('./posts')
         var markdown = marked(fs.readFileSync(filePath).toString());
         var html = template({
             content: markdown,
-            title: baseName.replace(/[-_]/g, " ")
+            title: baseName.replace(/[-_]/g, " "),
+            raw: baseName + '.html'
         });
 
         return {
