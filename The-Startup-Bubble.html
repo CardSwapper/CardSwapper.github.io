@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- So users cannot zoom into page, feels more native -->
+        <title>The Startup Bubble|CardSwapr</title>
+        <link class="headerIcon" rel="shortcut icon" href="/img/logo.png">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <title>CardSwapr: Your Personal Gift Card Trading Center</title>
 
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        <!-- metadata -->
+        <link rel="publisher" href="https://plus.google.com/" />
+        <meta property="og:title" content="The Startup Bubble|CardSwapr" />
+        <meta property="og:site_name" content="The Startup Bubble|CardSwapr" />
+        <meta property="og:url" content="http://blog.cardswapr.com/The-Startup-Bubble.html" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:image" content="/images/fb.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+
+        <!-- Google Analytics -->
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-61510103-1', 'auto');ga('send', 'pageview');</script>
     </head>
     <body>
-        <nav class="navbar-fixed-top" role="navigation">
-            <div class="topbar">
-                <!--LOGO-->
-                <img class="logo" src="img/logo.png">
-                <a href=".."><p>cardswapr</p></a>
+        <div id="nav">
+            <div class="logo"><a href="//cardswapr.com/"></a></div>
+            <div flex></div>
+            <div>
+                <a href="//blog.cardswapr.com/">blog</a>
+                <span>-</span>
+                <a href="//cardswapr.com/dashboard/">dashboard</a>
             </div>
-        </nav>
-        <div class="container full">
+            <div class="bg"></div>
+        </div>
 
-            <div class="pattern">
-                <div class="content">
-                    <h1 class="title top">The Startup Bubble</h1>
-                    <a class="back" href="index.html">back to blog</a>
-                </div>
-            </div>
+        <section id="main" class="container half">
+            <content>
+                <h1 class="title top">The Startup Bubble</h1>
+                <a class="back" href="index.html">back to blog</a>
+            </content>
+        </section>
 
-            <div class="pattern2">
-                <div class="content markdown">
-                    <div style="text-align: center">
+        <section class="markdown">
+            <div>
+                <div style="text-align: center">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRNEUc5k7Jw" frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -53,11 +60,18 @@ Truly, the American Dream has been changed. What was once a two-story home with 
 <a href="http://www.slideshare.net/a16z/mobile-is-eating-the-world-40841467">Mobile Is Eating The World</a> <br></p>
 <p>-Sam Tanner</p>
 
-                </div>
-
-                <div id="disqus_thread" class="content markdown"></div>
             </div>
-        </div>
+        </section>
+
+        <section style="padding: 0px 20px;;">
+            <content id="disqus_thread" class="content markdown" style="padding: 0px 0px;">
+
+            </content>
+        </section>
+
+        <section>
+            <span>CardSwapr, LLC. &#8482; <script type="text/javascript">document.write(new Date().getFullYear())</script>. All Rights Reserved.</span>
+        </section>
 
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES * * */
@@ -70,10 +84,5 @@ Truly, the American Dream has been changed. What was once a two-story home with 
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-        <footer>
-            <span>CardSwapr, LLC. &#8482; <script type="text/javascript">document.write(new Date().getFullYear())</script>. All Rights Reserved.</span>
-        </footer>
     </body>
 </html>
