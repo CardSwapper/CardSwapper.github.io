@@ -1,0 +1,26 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 14pt;
+    font-family: 'Open sans', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 500px), (max-height: 500px) {
+    body {
+        font-size: 10pt;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@import "component/import";
+@import "layout/import";

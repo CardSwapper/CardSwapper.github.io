@@ -5,7 +5,8 @@ var fs = require('fs-extra'),
     ejs = require('ejs'),
     marked = require('marked'),
     autoprefixer = require('autoprefixer-core'),
-    moment = require('moment');
+    moment = require('moment'),
+    sass = require('node-sass');
 
 marked.setOptions({
     gfm: true,
@@ -33,7 +34,8 @@ var posts = fs.readdirSync('./posts')
         var markdown = marked(fs.readFileSync(filePath).toString());
         var html = template({
             content: markdown,
-            title: baseName.replace(/[-_]/g, " ")
+            title: baseName.replace(/[-_]/g, " "),
+            raw: baseName + '.html'
         });
 
         return {
@@ -72,13 +74,18 @@ var html = ejs.render(fs.readFileSync(filePath).toString(), {
 });
 fs.writeFileSync(destPath, html);
 
-// autoprefix css
-var cssPath = './src/css/styles.css';
+// build scss
+var cssPath = './src/css/styles.scss';
 var cssDest = './build/css/styles.css';
-var css = fs.readFileSync(cssPath).toString();
+var scss = fs.readFileSync(cssPath).toString();
+var css = sass.renderSync({
+    data: scss,
+    includePaths: ['src/css/']
+}).css;
 fs.writeFileSync(cssDest, autoprefixer.process(css).css);
 
 // copy over assets
-fs.copySync('src/img', 'build/img');
+fs.copySync('src/images', 'build/images');
 fs.copySync('.travis.yml', 'build/.travis.yml');
 fs.copySync('src/CNAME', 'build/CNAME');
+fs.copySync('src/robots.txt', 'build/robots.txt');
