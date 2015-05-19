@@ -1,4 +1,4 @@
-# CardSwapr Blog
+# CardSwapper Blog
 
 ### Setup
 
