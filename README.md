@@ -22,7 +22,7 @@ travis encrypt -r cardswapr/cardswapr.github.io 'NAME="Your Name" EMAIL="you@exa
 ![](http://i.imgur.com/rKSuHIw.png)
 
 The title on the blog will automatically be converted into __dash delimited title__.
-Feel free to use capital letters.
+Feel free to use capital letters. 
 
 ##### 4. Write post in markdown.
 ![](http://i.imgur.com/zKza0Xn.png)
