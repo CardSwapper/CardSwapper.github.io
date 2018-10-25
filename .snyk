@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - node-sass > pangyp > minimatch:
+        patched: '2018-10-25T02:13:29.247Z'
+    - node-sass > pangyp > glob > minimatch:
+        patched: '2018-10-25T02:13:29.247Z'
+  'npm:tunnel-agent:20170305':
+    - node-sass > pangyp > request > tunnel-agent:
+        patched: '2018-10-25T02:13:29.247Z'
