@@ -6,7 +6,7 @@
     "autoprefixer-core": "^5.1.8",
     "ejs": "^2.3.1",
     "fs-extra": "^0.18.0",
-    "marked": "^0.3.3",
+    "marked": "^0.6.2",
     "moment": "^2.10.2",
     "node-sass": "^2.1.1"
   },
